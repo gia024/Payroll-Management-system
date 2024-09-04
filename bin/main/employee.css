@@ -1,0 +1,87 @@
+/* payroll.css */
+
+/* General Styles */
+.root {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20;
+    -fx-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    -fx-background-color: #111011;
+    -fx-padding: 15;
+    -fx-spacing: 15;
+}
+
+/* Button Styles */
+.button {
+    -fx-background-color: #0a0a0a;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #afcaca;
+}
+
+/* Title Label */
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0c0c0c;
+    -fx-padding-bottom: 20;
+}
+
+/* Input Fields */
+.text-field, .date-picker {
+    -fx-padding: 10;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-border-color: #bdc3c7;
+    -fx-background-color: #ecf0f1;
+}
+
+.text-field:focused, .date-picker:focused {
+    -fx-border-color: #434a4e;
+}
+
+/* Employee ListView */
+.list-view {
+    -fx-padding: 10;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-border-color: #bdc3c7;
+    -fx-background-color: #ecf0f1;
+}
+
+.list-view .list-cell {
+    -fx-padding: 10;
+    -fx-background-radius: 5;
+}
+
+.list-view .list-cell:filled:selected {
+    -fx-background-color: #444749;
+    -fx-text-fill: white;
+}
+
+/* Control Buttons */
+.control-button {
+    -fx-background-color: #080808;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-cursor: hand;
+}
+
+.control-button:hover {
+    -fx-background-color: #4d4646;
+}

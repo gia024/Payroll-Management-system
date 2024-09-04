@@ -1,0 +1,74 @@
+.root {
+    -fx-background-color: white;
+    -fx-padding: 20px;
+}
+
+
+.tab-header-area {
+    -fx-background-color: white;
+    -fx-border-color: transparent;
+    -fx-padding: 0;
+}
+
+.tab {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #e0e0e0 transparent; /* Minimal bottom border */
+    -fx-padding: 5px 10px;
+    -fx-background-insets: 0;
+    -fx-border-width: 0 0 1px 0; /* Only bottom border */
+}
+
+.tab:selected {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #000000 transparent; /* Highlight bottom border on selected tab */
+    -fx-border-width: 0 0 2px 0; /* Thicker bottom border for selected tab */
+}
+
+.tab-label {
+    -fx-text-fill: #333;
+    -fx-font-size: 14px;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333;
+    -fx-padding: 5px 0;
+}
+
+.label.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #1f2123;
+}
+
+.button:pressed {
+    -fx-background-color: #2d3034;
+}
+
+.table-view {
+    -fx-background-color: white;
+}
+
+.table-column {
+    -fx-font-size: 14px;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f9f9f9;
+}
+
+.table-row-cell:even {
+    -fx-background-color: white;
+}

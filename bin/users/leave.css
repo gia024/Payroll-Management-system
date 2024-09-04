@@ -1,0 +1,147 @@
+/* General styling */
+.root {
+    padding: 10px;
+    background-color: white; /* Standard property */
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+.button {
+    -fx-background-color: #000;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 5px 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #212222;
+}
+
+.button:pressed {
+    -fx-background-color: #3b3d3f;
+}
+
+.combo-box, .date-picker {
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-border-color: #1c1d1d;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-background-color: white;
+}
+
+.combo-box:hover, .date-picker:hover {
+    -fx-border-color: #262727;
+}
+
+.combo-box:focused, .date-picker:focused {
+    -fx-border-color: #323334;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-padding: 10px;
+    -fx-min-width: 600px;
+    -fx-min-height: 400px;
+}
+
+/* Disable column resizing and reordering */
+.table-view .column {
+    -fx-resizable: false;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #f0f0f0;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #f9f9f9;
+}
+
+.table-view .table-row-cell:even {
+    -fx-background-color: #fff;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #36393c;
+    -fx-text-fill: white;
+}
+
+.table-column {
+    -fx-background-color: white;
+    -fx-font-size: 14px;
+    -fx-max-width: 150px; /* Set a max-width if needed */
+}
+
+.table-cell {
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}
+
+/* Title Label */
+#titleLabel {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+/* Alert Box styling */
+.alert-box {
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+}
+
+.alert-box .label {
+    -fx-font-size: 14px;
+}
+
+.alert-box .button {
+    -fx-background-color: #232426;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-cursor: hand;
+}
+
+.alert-box .button:hover {
+    -fx-background-color: #232527;
+}
+
+.alert-box .button:pressed {
+    -fx-background-color: #232425;
+}
+
+/* TabPane styling */
+
+
+.tab-header-area {
+    -fx-background-color: white;
+    -fx-border-color: transparent;
+    -fx-padding: 0;
+}
+
+.tab {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #e0e0e0 transparent; /* Minimal bottom border */
+    -fx-padding: 5px 10px;
+    -fx-background-insets: 0;
+    -fx-border-width: 0 0 1px 0; /* Only bottom border */
+}
+
+.tab:selected {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #000 transparent; /* Highlight bottom border on selected tab */
+    -fx-border-width: 0 0 2px 0; /* Thicker bottom border for selected tab */
+}
+
+.tab-label {
+    -fx-text-fill: #333;
+    -fx-font-size: 14px;
+}

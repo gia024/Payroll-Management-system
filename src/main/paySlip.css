@@ -1,0 +1,67 @@
+#payslip {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+#title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#payslip label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#payslip .search-bar {
+    margin-bottom: 20px;
+}
+
+#payslip .details {
+    margin-top: 20px;
+}
+
+#payslip .details label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#payslip .net-salary {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.vbox {
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+    -fx-font-size: 14px;
+}
+
+.label-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-padding: 5px 0;
+}
+
+.label-info {
+    -fx-padding: 5px 0;
+}
+
+.button-ok {
+    -fx-background-color: #030303; /* Green */
+    -fx-border: none;
+    -fx-color: white;
+    -fx-padding: 10px 20px;
+    -fx-text-fill: white;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-font-size: 14px;
+    -fx-cursor: pointer;
+    -fx-border-radius: 4px;
+}

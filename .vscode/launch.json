@@ -1,0 +1,92 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Leave",
+            "request": "launch",
+            "mainClass": "users.Leave",
+            "projectName": "jaavaFXProject_48b9680a"
+        },
+        {
+            "type": "java",
+            "name": "AttendanceManagement",
+            "request": "launch",
+            "mainClass": "main.AttendanceManagement",
+            "projectName": "jaavaFXProject_48b9680a"
+        },
+        {
+            "type": "java",
+            "name": "EmployeeDashboard",
+            "request": "launch",
+            "mainClass": "users.EmployeeDashboard",
+            "projectName": "jaavaFXProject_48b9680a",
+            "vmArgs": "--module-path C:/Java/javafx-sdk-22.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "EmployeeSide",
+            "request": "launch",
+            "mainClass": "users.EmployeeSide",
+            "projectName": "jaavaFXProject_48b9680a",
+            "vmArgs": "--module-path C:/Java/javafx-sdk-22.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "EmployeeDashboard",
+            "request": "launch",
+            "mainClass": "main.EmployeeDashboard",
+            "projectName": "jaavaFXProject_48b9680a",
+            "vmArgs": "--module-path C:/Java/javafx-sdk-22.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "LoginWindow",
+            "request": "launch",
+            "mainClass": "main.LoginWindow",
+            "projectName": "jaavaFXProject_48b9680a",
+            "vmArgs": "--module-path C:/Java/javafx-sdk-22.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "PayrollDashboard",
+            "request": "launch",
+            "mainClass": "main.PayrollDashboard",
+            "projectName": "jaavaFXProject_48b9680a",
+            "vmArgs": "--module-path C:/Java/javafx-sdk-22.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "PayrollManagementSystem",
+            "request": "launch",
+            "mainClass": "main.PayrollManagementSystem",
+            "projectName": "jaavaFXProject_48b9680a",
+            "vmArgs": "--module-path C:/Java/javafx-sdk-22.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "LoginApp",
+            "request": "launch",
+            "mainClass": "main.LoginApp",
+            "projectName": "jaavaFXProject_48b9680a",
+            "vmArgs": "--module-path C:/Java/javafx-sdk-22.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "LoginApp",
+            "request": "launch",
+            "mainClass": "LoginApp",
+            "projectName": "jaavaFXProject_48b9680a",
+            "vmArgs": "--module-path C:/Java/javafx-sdk-22.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}

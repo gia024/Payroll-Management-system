@@ -1,0 +1,38 @@
+/* dashboard.css */
+
+.content-area {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20px;
+    -fx-spacing: 20px;
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 0;
+}
+
+.text-field {
+    -fx-prompt-text-fill: #999999;
+}
+
+.date-picker {
+    -fx-prompt-text-fill: #999999;
+}
+
+.list-view {
+    -fx-pref-width: 300px;
+    -fx-pref-height: 150px;
+}
+
+.button {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #232528;
+}

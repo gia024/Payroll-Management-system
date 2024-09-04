@@ -1,0 +1,34 @@
+/* styles.css */
+
+.root {
+    -fx-font-family: 'Arial', sans-serif;
+}
+
+.sidebar {
+    -fx-background-color: #333;
+    -fx-padding: 15px;
+}
+
+.sidebar .button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #fff;
+    -fx-border-color: transparent;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-cursor: pointer;
+}
+
+.sidebar .button:hover {
+    -fx-background-color: #444;
+    -fx-border-color: #444;
+}
+
+.content-area {
+    -fx-padding: 25px;
+    -fx-background-color: #ffffff;
+}
+
+.label {
+    -fx-font-size: 20px;
+    -fx-text-fill: #333;
+}

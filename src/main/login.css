@@ -1,0 +1,48 @@
+/* login.css */
+
+/* Body style */
+.root {
+    -fx-background-color: #ffffff; /* Light background color */
+}
+
+/* Welcome label style */
+.label-welcome {
+    -fx-font-size: 24px; /* Font size */
+    -fx-text-fill: #0f0f0f; /* Text color */
+}
+
+/* Labels and fields container style */
+.labels-fields {
+    -fx-padding: 20px; /* Padding around the container */
+    -fx-spacing: 10px; /* Spacing between elements */
+}
+
+/* Text fields style */
+.text-field {
+    -fx-font-size: 14px; /* Font size */
+    -fx-pref-width: 300px; /* Preferred width */
+}
+
+/* Password field style */
+.password-field {
+    -fx-font-size: 14px; /* Font size */
+    -fx-pref-width: 300px; /* Preferred width */
+}
+
+/* Sign in button style */
+.button-login {
+    -fx-text-fill: white; /* Text color */
+    -fx-background-color: #131414; /* Background color */
+    -fx-pref-width: 100px; /* Preferred width */
+}
+
+/* Remember me checkbox style */
+.checkbox-remember {
+    -fx-font-size: 14px; /* Font size */
+}
+
+/* Forgot password label style */
+.label-forgot {
+    -fx-font-size: 14px; /* Font size */
+    -fx-text-fill: #fdfdfd; /* Text color */
+}
